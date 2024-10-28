@@ -1,0 +1,32 @@
+{
+  "canisters": {
+    "meme_backend": {
+      "main": "src/meme_backend/main.mo",
+      "type": "motoko"
+    },
+    "meme": {
+      "main": "src/meme_backend/libs/meme.mo",
+      "type": "motoko"
+    },"meme2": {
+      "main": "src/meme_backend/libs/meme.mo",
+      "type": "motoko"
+    }, "meme_local": {
+      "main": "src/meme_backend/main_local.mo",
+      "type": "motoko"
+    },"log1": {
+      "main": "src/meme_backend/main2.mo",
+      "type": "motoko"
+    },"test2": {
+      "main": "src/test/icpex_router2.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
